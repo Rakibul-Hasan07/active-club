@@ -1,0 +1,21 @@
+.single-cart{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.single-cart img{
+    height: 300x;
+    width: 300px;
+    border-radius: 20px;
+}
+.cart-info{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-cart{
+    width: 100%;
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

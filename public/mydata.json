@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Seated Dumbbell Curl",
+        "title": "Gym is the most fitness for body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
+        "time": 30,
+        "age": "20-23"
+    },
+    {
+        "id": "2",
+        "name": "Seated Cable Row",
+        "title": "Gym is the most fitness for body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
+        "time": 30,
+        "age": "20-23"
+    },
+    {
+        "id": "3",
+        "name": "Hammer Curl",
+        "title": "Gym is the most fitness for body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
+        "time": 30,
+        "age": "20-23"
+    },
+    {
+        "id": "4",
+        "name": "Standing Leg Curl",
+        "title": "Gym is the most fitness for body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
+        "time": 30,
+        "age": "20-23"
+    },
+    {
+        "id": "5",
+        "name": "Lateral Raises",
+        "title": "Gym is the most fitness for body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
+        "time": 30,
+        "age": "20-23"
+    },
+    {
+        "id": "6",
+        "name": "Hack Squat",
+        "title": "Gym is the most fitness for body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
+        "time": 30,
+        "age": "20-23"
+    }
+]

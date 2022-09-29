@@ -1,22 +1,16 @@
 const addToDb = id => {
-    let shoppingCart = {};
+    // console.log(id);
+    const setSecond = {};
 
-    //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('shopping-cart');
-    if (storedCart) {
-        shoppingCart = JSON.parse(storedCart);
-    }
-
-    // add quantity
-    const quantity = shoppingCart[id];
-    if (quantity) {
-        const newQuantity = quantity + 1;
-        shoppingCart[id] = newQuantity;
-    }
-    else {
-        shoppingCart[id] = 1;
-    }
-    localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
+    const setId = setSecond[id]
+//    console.log(setId);
+   if(setId){
+    setSecond[id] = setId;
+   }
+   else{
+    setSecond[id] = 1;
+   }
+    localStorage.setItem('setSeconds', JSON.stringify(setSecond))
 }
 const storedDb = () => {
     // let shoppingCart = {};
@@ -25,12 +19,13 @@ const storedDb = () => {
     //     shoppingCart = getId;
     // }
     // return shoppingCart;
-    let shoppingCart = {};
-    const getId = localStorage.getItem('shopping-cart');
+    let setSecond = {};
+    const getId = localStorage.getItem('setSeconds');
     if (getId) {
-        shoppingCart = JSON.parse(getId);
+        setSecond = JSON.parse(getId);
     }
-    return shoppingCart;
+    return setSecond;
 }
+
 
 export { addToDb, storedDb };

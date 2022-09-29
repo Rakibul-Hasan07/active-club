@@ -2,49 +2,49 @@
     {
         "id": "1",
         "name": "Seated Dumbbell Curl",
-        "title": "Gym is the most fitness for body",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
+        "title": "While there is more core engagement for bicep curls standing, this isn't usually the goal for bicep training.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTniFpXx7oZrBFuddnrLdEm5_1U1kbtgzRmnA&usqp=CAU",
         "time": 30,
         "age": "20-23"
     },
     {
         "id": "2",
         "name": "Seated Cable Row",
-        "title": "Gym is the most fitness for body",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
-        "time": 30,
-        "age": "20-23"
+        "title": "During the seated row, the primary movers are the lats and rhomboids.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt6zFuovPc_8rK4BoafTaOe5b1lBnW4-WnFQ&usqp=CAU",
+        "time": 40,
+        "age": "25-28"
     },
     {
         "id": "3",
         "name": "Hammer Curl",
-        "title": "Gym is the most fitness for body",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
-        "time": 30,
-        "age": "20-23"
+        "title": "Hammer curls target the long head of the bicep as well as the brachialis.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx9vbqcUV9FITOMLKk8hPrMNY5d-ZM_VOTxA&usqp=CAU",
+        "time": 60,
+        "age": "20-22"
     },
     {
         "id": "4",
         "name": "Standing Leg Curl",
-        "title": "Gym is the most fitness for body",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
-        "time": 30,
-        "age": "20-23"
+        "title": "The standing hamstring curl is a bodyweight exercise that tones your hamstring muscles.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRElivlcCm0lkTu4NlOrIw2Wm2Pe4VB8TQRjw&usqp=CAU",
+        "time": 50,
+        "age": "22-26"
     },
     {
         "id": "5",
         "name": "Lateral Raises",
-        "title": "Gym is the most fitness for body",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
-        "time": 30,
-        "age": "20-23"
+        "title": "A lateral raise works your shoulder muscles as well as your triceps.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuUB5OWdBg0xmK054GONDMqnvJXeYMEuNiSg&usqp=CAU",
+        "time": 70,
+        "age": "20-22"
     },
     {
         "id": "6",
         "name": "Hack Squat",
-        "title": "Gym is the most fitness for body",
+        "title": "The hack squat involves standing on the plate, leaning back onto the pads at an angle.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpcjTXyoPM1QLBaHCA8R5c9Rrjcb8n8Btfg&usqp=CAU",
-        "time": 30,
-        "age": "20-23"
+        "time": 40,
+        "age": "20-26"
     }
 ]

@@ -1,7 +1,7 @@
 .main-container{
     display: grid;
-    grid-template-columns: 8fr 3fr;
-    background-color: gray;
+    grid-template-columns: 4fr 1fr;
+    background-color: rgb(221, 213, 213);
 }
 .active-item{
     margin: 60px;
@@ -19,5 +19,41 @@
     margin-top: 50px;
 }
 .cart-item{
-    background-color: #fff;
+    background-color: rgb(243, 208, 208);
+    position: sticky;
+    top: 0;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .gym-cart{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .main-container{
+        /* display: grid;
+        grid-template-columns: 4fr, 1fr; */
+        display: flex;
+        flex-direction: column;
+    }
+    .gym-cart{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .main-container{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    .gym-cart{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }

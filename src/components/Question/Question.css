@@ -1,0 +1,32 @@
+.question-component{
+    background-color: rgb(221, 213, 213);
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.single-question{
+    background-color: rgb(221, 208, 144);
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .question-component{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .question-component{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .question-component{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }

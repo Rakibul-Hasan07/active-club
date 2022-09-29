@@ -15,7 +15,8 @@ const Body = () => {
     }, [])
 
     const handleCart = (cart) => {
-            setCount([cart]);
+        const newCart = [...count, cart]
+            setCount(newCart);
     }
     return (
         <div className='main-container'>

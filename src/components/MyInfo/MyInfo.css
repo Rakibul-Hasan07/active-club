@@ -1,0 +1,12 @@
+.name-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.name-section img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}

@@ -1,0 +1,21 @@
+.break-time-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.break-time-section div {
+    padding: 4px;
+}
+
+.break-time-section p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid wheat;
+    padding: 4px;
+    border-radius: 40%;
+    background-color: wheat;
+}

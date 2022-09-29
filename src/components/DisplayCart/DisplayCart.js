@@ -2,7 +2,8 @@ import React from 'react';
 import './DisplayCart.css'
 
 const DisplayCart = (props) => {
-    const {id, name, img, title, age, time} = props.cart
+    const { id, name, img, title, age, time} = props.cart;
+    // console.log(props.cart);
     return (
         <div className='single-cart'>
             <img src={img} alt="" />
@@ -12,7 +13,7 @@ const DisplayCart = (props) => {
                 <h3>For Age: {age}</h3>
                 <h3>Time Required: {time}s</h3>
             </div>
-            <button className='btn-cart'>Add TO Cart</button>
+            <button onClick={() => props.handleCart(props.cart)} className='btn-cart'>Add TO Cart</button>
         </div>
     );
 };

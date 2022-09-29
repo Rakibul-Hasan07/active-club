@@ -23,7 +23,8 @@ const Body = () => {
         <div>
             <div className='main-container'>
                 <div className='active-item'>
-                    <h1 className='first-name'><FontAwesomeIcon icon={faDumbbell} />Fitness <span className='last-name'>Gym Club</span></h1>
+                    <h1 className='first-name'><FontAwesomeIcon icon={faDumbbell}/>Fitness <span className='last-name'>Gym Club</span></h1>
+                    <h2>Select today’s exercise</h2>
                     <div className='gym-cart'>
                         {
                             carts.map(cart => <DisplayCart cart={cart} key={cart.id} handleCart={handleCart}></DisplayCart>)

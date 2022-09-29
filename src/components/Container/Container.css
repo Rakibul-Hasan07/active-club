@@ -10,7 +10,7 @@
     color: goldenrod;
 }
 .last-name{
-    color: skyblue;
+    color: rgb(89, 177, 212);
 }
 .gym-cart{
     display: grid;
@@ -37,8 +37,6 @@
   }
   @media only screen and (min-width: 600px) {
     .main-container{
-        /* display: grid;
-        grid-template-columns: 4fr, 1fr; */
         display: flex;
         flex-direction: column;
     }

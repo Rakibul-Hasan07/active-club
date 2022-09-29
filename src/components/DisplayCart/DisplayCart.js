@@ -3,7 +3,6 @@ import './DisplayCart.css'
 
 const DisplayCart = (props) => {
     const { id, name, img, title, age, time} = props.cart;
-    // console.log(props.cart);
     return (
         <div className='single-cart'>
             <img src={img} alt="" />

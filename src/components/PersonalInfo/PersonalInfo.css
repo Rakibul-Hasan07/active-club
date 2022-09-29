@@ -1,8 +1,7 @@
 .personal-info {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* padding-left: 20px; */
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    /* grid-template-columns: repeat(3, 1fr); */
     background-color: gray;
     border-radius: 20px;
 }

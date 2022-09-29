@@ -6,3 +6,9 @@
     background-color: gray;
     border-radius: 10px;
 }
+.break-time-section button{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+}

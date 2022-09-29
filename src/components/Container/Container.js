@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import DisplayCart from '../DisplayCart/DisplayCart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDumbbell, } from '@fortawesome/free-solid-svg-icons'
-import './Body.css'
+import './Container.css'
 import SideCart from '../SideCart/SideCart';
 
 const Body = () => {

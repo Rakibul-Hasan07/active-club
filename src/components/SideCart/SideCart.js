@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import './SideCart.css'
+import React, { useEffect, useState } from 'react';
+import './SideCart.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import MyInfo from '../MyInfo/MyInfo';
 import AddBreak from '../AddBreak/AddBreak';
 import ExTime from '../ExTime/ExTime';
@@ -8,31 +10,32 @@ import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import { addToDb, storedDb } from '../FakeDB/fakeDB';
 
 const SideCart = (props) => {
-    // console.log(props.count);
     const [second, setSecond] = useState(0)
-    // console.log(second);
-    useEffect(()=>{
+    useEffect(() => {
         const localDB = storedDb();
-        // console.log(localDB);
-        for(const id in localDB){
+        for (const id in localDB) {
             setSecond(id)
         }
-    },[])
+    }, [])
     const handleBreak = (id) => {
         setSecond(id);
         addToDb(id);
     }
 
+    const handleToast = () => {
+        toast.success("WoW! Activate Completed",{position:"top-center"});
+    }
     return (
         <div className='side-container'>
             <MyInfo></MyInfo>
             <PersonalInfo></PersonalInfo>
             <AddBreak handleBreak={handleBreak}></AddBreak>
             <ExTime count={props.count}></ExTime>
-            <BreakTime second = {second}></BreakTime>
+            <BreakTime second={second}></BreakTime>
             <div>
-                <button className='activity-btn'>Activity Completed</button>
+                <button onClick={handleToast} className='activity-btn'>Activity Completed</button>
             </div>
+            <ToastContainer />
         </div>
     );
 };
